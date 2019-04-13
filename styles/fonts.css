@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+@font-face {
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    src: url('../fonts/Helvetica.ttf');
+}
+
+@font-face {
+    font-family: HelveticaBold, sans-serif;
+    font-weight: 600;
+    src: url('../fonts/Helvetica-Bold.ttf');
+}

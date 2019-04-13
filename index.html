@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/fonts.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <div class="lobster-logo">
+                <span class="lobster-logo__text lobster-logo__text--orange">Photo</span>
+                <span class="lobster-logo__text">Cage app</span>
+            </div>
+        </div>
+        <ul class="nav">
+            <li class="nav__item">
+                <a href="">
+                    <i class="icon ion-md-home"></i>
+                    <span>Home</span>
+                </a>
+            </li>
+            <li class="nav__item">
+                <a href="" class="active">
+                    <i class="icon ion-md-camera"></i>
+                    <span>Gallery</span>
+                </a>
+            </li>
+            <li class="nav__item">
+                <a href="">
+                    <i class="icon ion-md-people"></i>
+                    <span>Members</span>
+                </a>
+            </li>
+            <li class="nav__item">
+                <a href="">
+                    <i class="icon ion-md-power"></i>
+                    <span>Logout</span>
+                </a>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <form action="" class="form" id="search">
+            <h2 class="heading">Search any image you want here! Try it!</h2>
+            <div class="form__field">
+                <input type="text" id="query" class="form__field-input">
+                <button type="submit" class="form__field-btn">Browse</button>
+                <button type="button" id="next_page" class="form__btn-upload form__btn--orange">Next page</button>
+            </div>
+        </form>
+        <section class="gallery" id="gallery">
+            <div class="heading text-center">Enter query and press "Browse"</div>
+        </section>
+    </main>
+    <script src="./scripts/index.js"></script>
+</body>
+
+</html>
